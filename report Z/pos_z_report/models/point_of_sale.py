@@ -84,9 +84,9 @@ class pos_session(models.Model):
                           <!-- HEADER -->
                           <tr>
                             <td align="center" style="min-width: 590px;">
-                              <table width="590" border="0" cellpadding="0" bgcolor="#875A7B" style="min-width: 590px; background-color: rgb(135,90,123); padding: 20px;">
+                              <table width="590" border="0" cellpadding="0" bgcolor="1f5ef6" style="min-width: 590px; background-color: rgb(135,90,123); padding: 20px;">
                                 <tbody><tr>
-                                  <td valign="middle"><span style="font-size:20px; color:white; font-weight: bold;">POS z-report</span></td>
+                                  <td valign="middle"><span style="font-size:20px; color:white; font-weight: bold;">Reporte de Ventas Realcomputer SAC</span></td>
                                   <td valign="middle" align="right">
                                   </td>
                                 </tr>
@@ -100,14 +100,14 @@ class pos_session(models.Model):
                               <table width="590" border="0" cellpadding="0" bgcolor="#ffffff" style="min-width: 590px; background-color: rgb(255, 255, 255); padding: 20px;">
                                 <tbody>
                                   <tr><td valign="top" style="font-family:Arial,Helvetica,sans-serif; color: #555; font-size: 14px;">
-                                    </td></tr></tbody></table></td></tr><tr><td align="center" style="min-width: 590px;"><table width="590" border="0" cellpadding="0" bgcolor="#875A7B" style="min-width: 590px; background-color: rgb(135,90,123); padding: 20px;"><tbody><tr><td valign="middle" align="left" style="color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;"><p>Hello Dear,<br></p><p> POS z-report is attached in the PDF.</p><p>Thanks,</p></td>
+                                    </td></tr></tbody></table></td></tr><tr><td align="center" style="min-width: 590px;"><table width="590" border="0" cellpadding="0" bgcolor="1f5ef6" style="min-width: 590px; background-color: rgb(135,90,123); padding: 20px;"><tbody><tr><td valign="middle" align="left" style="color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;"><p>Hola Gracias,<br></p><p>El informe Z de Ventas POS se adjunta en el PDF.</p><p>Gracias,</p></td>
                                   <td valign="middle" align="right" style="color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;"><br><br></td>
                                 </tr>
                               </tbody></table>
                             </td>
                           </tr>
                           <tr>
-                            <td align="center"> Powered by Spellbound Soft Solution. </td>
+                            <td align="center"> Powered by RealComputer SAC Soft Solution. </td>
                           </tr>
                         </tbody>
                     </table>
