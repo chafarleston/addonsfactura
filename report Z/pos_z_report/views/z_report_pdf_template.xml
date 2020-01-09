@@ -5,7 +5,7 @@
                 <div class="page">
                    <div class="oe_structure"/>
                     <div align="center" style="border:1px solid black;margin:0 auto;padding:0 auto;font-size:25px">
-                        <strong>Z - Report</strong>
+                        <strong>Reporte de Ventas </strong>
                     </div>
                     <div align="center" style="margin:0 auto;padding:0 auto;font-size:20px;margin-top:8px;">
                         <t t-if="o.get_company_data().logo">
@@ -47,7 +47,7 @@
                     <table style="width:100%;margin-top:15px;">
                     	<tr>
                             <td class="text-left">
-                                Opened Date
+                                Fecha de Apertura
                             </td>
                             <td class="text-right">
                                 <span t-esc="o.start_at"/>
@@ -55,7 +55,7 @@
                         </tr>
                         <tr>
                             <td class="text-left">
-                               Close Date
+                               Fecha de Cierre
                             </td>
                             <td class="text-right">
                                 <span t-esc="o.stop_at"/>
@@ -70,7 +70,7 @@
                         <tr>
                             <td class="text-left">
                             	--------------------------------<br/>
-                                Opening Amount<br/>
+                                Monto de apertura<br/>
                             	--------------------------------<br/>
                             </td>
                             <td class="text-right">
@@ -82,7 +82,7 @@
                        
                         <tr>
                             <td class="text-left">
-                                Sales
+                                Ventas
                             </td>
                             <td class="text-right">
                                 <span t-field="o.currency_id.symbol"/><span t-esc="o.get_total_sales()"/>
@@ -90,7 +90,7 @@
                         </tr>
                         <tr>
                             <td class="text-left">
-                                Returns
+                                D	evoluciones
                             </td>
                             <td class="text-right">
                                 <span t-field="o.currency_id.symbol"/><span t-esc="o.get_total_returns()"/>
@@ -98,7 +98,7 @@
                         </tr>
                         <tr>
                             <td class="text-left">
-                                Tax
+                                Impuesto
                             </td>
                             <td class="text-right">
                                 <span t-esc="o.get_total_tax()" t-options='{"widget": "monetary", "display_currency": o.currency_id}'/>
@@ -106,7 +106,7 @@
                         </tr>
                         <tr>
                             <td class="text-left">
-                                Discount Amount
+                                Importe de descuento
                             </td>
                             <td class="text-right">
                                 <span t-field="o.currency_id.symbol"/><span t-esc="o.get_total_discount()"/>
@@ -114,7 +114,7 @@
                         </tr>
                         <tr>
                             <td class="text-left">
-                                Gross Total
+                                Ventas Totales
                             </td>
                             <td class="text-right">
                                 <span t-field="o.currency_id.symbol"/><span t-esc="o.get_total_first()"/>
@@ -123,7 +123,7 @@
                         <t t-if="o.get_user()">
                             <tr>
                                 <td class="text-left">
-                                    Gross Profit
+                                    Utilidad Bruta
                                 </td>
                                 <td class="text-right">
                                <span t-esc="o.get_gross_total()" t-options='{"widget": "monetary", "display_currency": o.currency_id}'/>
@@ -131,7 +131,7 @@
                             </tr>
                             <tr>
                                 <td class="text-left">
-                                    Net Gross Profit
+                                    Beneficio Bruto Neto
                                 </td>
                                 <td class="text-right">
                                <span t-esc="o.get_net_gross_total()" t-options='{"widget": "monetary", "display_currency": o.currency_id}'/>
@@ -141,7 +141,7 @@
                          <tr>
                             <td class="text-left">
                                 --------------------------------<br/>
-                                Closing Amount<br/>
+                                Monto de cierre<br/>
                                 --------------------------------<br/>
                             	
                             </td>
@@ -155,7 +155,7 @@
                     <t t-if="o.get_product_category()">
                         <div align="center" style="margin-top:10px !important;">
                             ----------------------------<br/>
-                            Department Sales<br/>
+				    Departamento de ventas<br/>
                             ----------------------------<br/>
                         </div>
                         <table style="width:100%;margin-top:15px;">
